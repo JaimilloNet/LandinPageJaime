@@ -4,9 +4,9 @@ export const PortafolioPage = () => {
   return (
     <>
     <div className="flex bg-cyan-600">
-      <div class="max-w-screen-xl mx-auto sm:px-6 lg:px-8 sm:py-24">
-          <div class="max-w-xl mx-auto text-center">
-            <h2 class="text-4xl font-bold tracking-tight sm:text-4xl">
+      <div className="max-w-screen-xl mx-auto sm:px-6 lg:px-8 sm:py-20">
+          <div className="max-w-xl mx-auto text-center">
+            <h2 className="text-4xl font-bold tracking-tight sm:text-4xl">
               Portafolio 
             </h2>
 
@@ -14,9 +14,9 @@ export const PortafolioPage = () => {
               Te invito a que conozcas algunos de mis proyectos
             </p>
           </div>
-      <div className="container grid gap-4 grid-cols-1 lg:grid-cols-2 grid-rows-2 justify-between w-full h-full mb-18">
+      <div className="container grid gap-4 grid-cols-1 lg:grid-cols-2 grid-rows-2 justify-between w-full h-full mb-10">
           {proyectos.map((proyecto) => (
-            <div key={proyecto.id} className="flex container justify-between flex-col bg-secondary-color lg:flex flex-grow items-center w-[100%] h-[100%] px-5 py-5 rounded-md mr-5 my-10">
+            <div key={proyecto.id} className="flex container justify-between flex-col bg-secondary-color lg:flex flex-grow items-center w-[100%] h-[100%] px-5 py-5 rounded-md mr-5 my-18">
                 <div className="flex flex-row w-full h-full justify-around">
                   <div className="flex flex-col justify-center w-[50%] h-[80%]">
                     <img
@@ -66,7 +66,7 @@ export const PortafolioPage = () => {
         </button>
                   </div>
 
-                  <div className="flex">
+                  <div className="flex ">
                   <a href={proyecto.url_github}>
                   <button className="flex bg-quinario-color-complement text-white w-full h-full px-4 sm:px-16 rounded-3xl items-center py-1">
                       
