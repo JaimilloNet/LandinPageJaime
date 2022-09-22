@@ -2,15 +2,20 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-:root {
-  background-color: #ccc;
+.fondo{ 
+  
+  min-width: 100%;
+  height : 100%;
+
 }
 
-section {
-  display: flex;
-  place-items: center;
-  height: 100vh;
+.fondoE{ 
+  background-color: rgb(6, 17, 170);
+  min-width: 100%;
+  height : 100%;
+
 }
+
 
 .nav {
   display: flex;

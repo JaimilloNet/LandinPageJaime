@@ -5,6 +5,7 @@ import { EstudiosPage } from "./pages/EstudiosPage";
 import { ExperienciaPage } from "./pages/ExperienciaPage";
 import { PortafolioPage } from "./pages/PortafolioPage";
 import { ContactoPage } from "./pages/ContactoPage";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <section id="contacto">
         <ContactoPage />
       </section>
+      <Footer/>
     </>
   );
 }
