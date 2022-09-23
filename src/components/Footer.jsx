@@ -2,33 +2,69 @@ export const Footer = () => {
   return (
     <>
       <footer className="text-center bg-white">
-        <div className="px-4 py-12 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+        <div className="px-4 py-5 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto space-y-6">
             <div className="flex justify-center text-center gap-10">
-              <button className="flex">
-            <a href="https://api.whatsapp.com/send?phone=573104073167&text=Hola, quisiera saber mas informacion para realizar un proyecto!" 
-            className="text-quinario-color-complement cursor-pointer mx-2 font-medium">Click aqui</a>
-            </button>
-            
+              <button className="flex justify-center text-center">
+                <a
+                  href="https://api.whatsapp.com/send?phone=573104073167&text=Hola, quisiera saber mas informacion para realizar un proyecto!"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Whatsapp"
+                  className="text-green-500 hover:text-green-600/75 cursor-pointer mx-2 font-medium"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 48 48"
+                    className="w-8 h-8"
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
+                    />
+                    <path
+                      fill="#fff"
+                      d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"
+                    />
+                    <path
+                      fill="#cfd8dc"
+                      d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"
+                    />
+                    <path
+                      fill="#40c351"
+                      d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"
+                    />
+                    <path
+                      fill="#fff"
+                      fill-rule="evenodd"
+                      d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </a>
+              </button>
               <a
-                className="text-blue-500 hover:text-blue-500/75"
-                href="https://web.whatsapp.com/"
+                className=""
+                href="https://www.linkedin.com/in/jaime-alberto-loaiza-mosquera-58992032/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Whatsapp"
+                aria-label="LinkedIn"
               >
                 <svg
-                  className="w-8 h-8"
-                  fill="currentColor"
-                  viewBox="0 0 24 24"
-                  aria-hidden="true"
+                  className="w-6 h-6 text-blue-500 fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
                 >
-                  <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
+                  <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
                 </svg>
               </a>
               <a
                 className="text-gray-900 hover:text-gray-900/75"
-                href="/"
+                href="https://github.com/JaimilloNet/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
@@ -46,32 +82,14 @@ export const Footer = () => {
                   ></path>
                 </svg>
               </a>
-
-              
             </div>
 
-            <nav className="p-6 border-4 border-gray-900 rounded-3xl">
-              <ul className="flex flex-wrap justify-center text-sm font-bold gap-6">
-                <li>
-                  <a
-                    className="text-gray-900 transition hover:text-gray-900/75"
-                    href="/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Jaime A. Loaiza M.
-                  </a>
-                </li>
-
-                
-
-                
-              </ul>
-            </nav>
-
-            <p className="max-w-lg mx-auto text-xs text-gray-500">
-              Ingeniero de sistemas con experiencia mas de 15 años
-              <span class="block mt-4"> &copy; 2022 Todos los Derechos Reservados </span>
+            <p className="max-w-lg mx-auto text-md text-gray-500">
+              Jaime Alberto Loaiza Mosquera
+              <span class="block mt-4">
+                {" "}
+                &copy; 2022 Todos los Derechos Reservados{" "}
+              </span>
             </p>
           </div>
         </div>

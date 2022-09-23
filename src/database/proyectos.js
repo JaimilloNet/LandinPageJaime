@@ -25,6 +25,6 @@ export const proyectos = [
     titulo: "Proyecto 4",
     descripcion: "Landing Page",
     url: "LandingPagejJL.jpg",
-    url_github: "https://github.com/JaimilloNet",
+    url_github: "https://github.com/JaimilloNet/LandinPageJaime.git",
   },
 ];
